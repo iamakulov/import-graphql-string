@@ -23,7 +23,7 @@
   "scripts": {
     "test": "tsc && jest",
     "build": "tsc --project tsconfig.types.json && babel src --out-dir dist --extensions \".ts\" --ignore \"src/**/*.test.ts\"",
-    "prepublish": "yarn build"
+    "prepublishOnly": "yarn build"
   },
   "keywords": [
     "graphql"
