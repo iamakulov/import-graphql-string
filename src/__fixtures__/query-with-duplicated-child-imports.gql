@@ -1,0 +1,9 @@
+# import "./fragment-1.gql"
+# import "./fragment-2.gql"
+
+query {
+  name
+  url
+  ...fragment1
+  ...fragment2
+}

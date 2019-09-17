@@ -1,0 +1,6 @@
+# import "./fragment-3.gql"
+
+fragment fragment1 on Query {
+  field1
+  ...fragment3
+}

@@ -1,0 +1,31 @@
+{
+  "name": "import-graphql-string",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/callsite": "^1.0.30",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "jest": "^24.9.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0"
+  },
+  "scripts": {
+    "test": "tsc && jest",
+    "build": "tsc --project tsconfig.types.json && babel src --out-dir dist --extensions \".ts\" --ignore \"src/**/*.test.ts\"",
+    "prepublish": "yarn build"
+  },
+  "keywords": [
+    "graphql"
+  ]
+}

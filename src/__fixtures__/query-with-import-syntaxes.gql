@@ -1,0 +1,15 @@
+# import "./fragment-1.gql"
+#import "./fragment-1.gql"
+# import './fragment-1.gql'
+#import './fragment-1.gql'
+# import "./fragment-1.gql";
+#import "./fragment-1.gql";
+# import './fragment-1.gql';
+#import './fragment-1.gql';
+#    import    './fragment-1.gql' ;
+#       import  "./fragment-1.gql" ;
+
+query {
+  name
+  url
+}

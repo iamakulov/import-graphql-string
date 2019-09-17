@@ -1,0 +1,6 @@
+# import "./fragment-with-invalid-import.gql"
+
+query {
+  name
+  url
+}

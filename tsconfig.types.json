@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "outDir": "dist",
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.ts"]
+}
