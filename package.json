@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "description": "Read a GraphQL file into a plain string – resolving all `# import` declarations",
+  "homepage": "https://github.com/iamakulov/import-graphql-string#readme",
+  "repository": "iamakulov/import-graphql-string",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
